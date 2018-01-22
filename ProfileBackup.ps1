@@ -6,7 +6,7 @@
 $Computer = [Microsoft.VisualBasic.Interaction]::InputBox('Enter the Computer Name', 'Export User Profile')
 
 [void][System.Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')
-$Profile = [Microsoft.VisualBasic.Interaction]::InputBox('Enter the Profile Username to Export', 'Export TEC Profile')
+$Profile = [Microsoft.VisualBasic.Interaction]::InputBox('Enter the Profile Username to Export', 'Export Windows Profile')
 
 #Defining Remote Paths
 ###################################################################################################################
